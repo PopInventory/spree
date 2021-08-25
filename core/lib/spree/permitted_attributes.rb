@@ -119,7 +119,7 @@ module Spree
     @@taxonomy_attributes = [:name]
 
     @@taxon_attributes = [
-      :name, :parent_id, :position, :icon, :description, :permalink, :hide_from_nav,
+      :name, :parent_id, :parent_permalink, :position, :icon, :description, :permalink, :hide_from_nav,
       :taxonomy_id, :meta_description, :meta_keywords, :meta_title, :child_index
     ]
 
